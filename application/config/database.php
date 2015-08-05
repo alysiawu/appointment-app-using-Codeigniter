@@ -5,10 +5,10 @@ $active_record = TRUE;
 
 if(ENVIRONMENT == 'production')
 {
-	$db['default']['hostname'] = 'localhost';
+	$db['default']['hostname'] = '127.0.0.1';
 	$db['default']['username'] = 'root';
-	$db['default']['password'] = '';
-	$db['default']['database'] = '';
+	$db['default']['password'] = '1209';
+	$db['default']['database'] = 'app';
 }
 else
 {

@@ -1,12 +1,31 @@
 <html>
-  <?php 
+  <?php
   ?>
   <head>
-    <title>What's Up</title>
+  	<meta charset="utf-8">
+		 <title>MINI TASK MANAGER</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+
+		<!-- animate css -->
+		<link rel="stylesheet" href="/assets/css/animate.min.css">
+		<!-- bootstrap css -->
+		<link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+		<!-- font-awesome -->
+		<link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+		<!-- google font -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,700,800' rel='stylesheet' type='text/css'>
+
+		<!-- custom css -->
+		<link rel="stylesheet" href="/assets/css/templatemo-style.css">
+		<!-- original  -->
  	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
   </head>
-  <body>
+  <body class = " red lighten-4">
+  	<div class="container">
     <h1>Hello, <?= $this->session->userdata('name'); ?></h1>
     <a href="/users/logout">Log Out</a>
     <?php
@@ -29,11 +48,11 @@
         echo($this->session->flashdata('app_errors')[0]);
         echo($this->session->flashdata('app_errors')[1]);
       }
-  
+
 // var_dump($all_current_apps);
 // die();
 // $this->session->set_userdata('task_id', $all_current_app['id']);
-// $task_id =$this->session->userdata('task_id'); 
+// $task_id =$this->session->userdata('task_id');
 // var_dump($task_id);
 // die();
 foreach($all_current_apps as $all_current_app)
@@ -47,7 +66,7 @@ foreach($all_current_apps as $all_current_app)
 		<a href="/appointments/delete_app/<?= $all_current_app['id']?>">Delete</a>
 	</td>
 </tr>
-<?}?>	
+<?}?>
 </tbody>
 </table>
 <p>Your Other appointments </p>
@@ -66,7 +85,7 @@ foreach($all_current_apps as $all_current_app)
 // die();
 	foreach ($all_other_apps as $all_other_app){?>
 <tr>
-	 <?php 
+	 <?php
 	$dateformat = date("F j, Y", strtotime($all_other_app['date']));
 	 // $date =$all_other_app['date'];
 
@@ -89,7 +108,8 @@ foreach($all_current_apps as $all_current_app)
 	 Time: <input type="time" name = "time"><br>
 	 date: <input type="date" name = "date"><br>
 	 tasks: <input type = "text" name = "tasks"><br>
-	 <input type = "submit" value = "submit">
-</form>   
+	 <input class = "blue accent-4" type = "submit" value = "submit">
+</form>
+</div>
   </body>
 </html>

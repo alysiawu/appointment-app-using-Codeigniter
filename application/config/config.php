@@ -1,6 +1,6 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-$config['base_url']	= '';
+$config['base_url']= '';
 
 $config['index_page'] = '';
 
@@ -22,7 +22,7 @@ $config['allow_get_array']		= TRUE;
 $config['enable_query_strings'] = FALSE;
 $config['controller_trigger']	= 'c';
 $config['function_trigger']		= 'm';
-$config['directory_trigger']	= 'd'; 
+$config['directory_trigger']	= 'd';
 
 $config['log_threshold'] = 0;
 $config['log_path'] = '';

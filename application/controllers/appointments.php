@@ -20,7 +20,7 @@ class Appointments extends CI_Controller {
   }
 
 	public function add()
-	{	
+	{
 		$app= $this->input->post();
 		$is_valid = $this->User->add_app($app);
 		  if($is_valid[0] == 'valid'){
@@ -32,7 +32,7 @@ class Appointments extends CI_Controller {
 		// redirect('appointments/index');
 	}
 	public function edit_app($task_id)
-	{		
+	{
 		$this->load->view('reviews/edit_app', array("task_id"=>$task_id));
 	}
 	public function edit_this_app()

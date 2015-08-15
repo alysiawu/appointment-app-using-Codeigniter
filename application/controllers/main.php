@@ -13,6 +13,6 @@ class Main extends CI_Controller {
 		echo "Welcome to CodeIgniter. The default Controller is Main.php";
 	}
 }
+
 ?>
 
-//end of main controller

@@ -3,4 +3,7 @@
 $route['default_controller'] = 'users';
 $route['404_override'] = '';
 
-//end of routes.php
+// $route['/users/register] = 'users/register]';
+// appointments/index'
+?>
+<!-- //end of routes.php -->

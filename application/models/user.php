@@ -1,8 +1,8 @@
-<?php 
+<?php
 
 class User extends CI_Model
 {
- 
+
 
   public function register($post){
     // this loads the built in CI form validation
@@ -23,7 +23,7 @@ class User extends CI_Model
           $id = $this->db->insert_id();
           $success = array('valid', $id);
 
-          return $success; 
+          return $success;
         } else {
           return false;
         }
@@ -50,14 +50,14 @@ class User extends CI_Model
       return false;
     }
   }
-  
+
  public function get_user_by_id($id){
     // echo 'in the model getting user';
     $query = "SELECT id, name FROM users WHERE id = ?";
     return $this->db->query($query, array($id))->row_array();
   }
 public function add_app($app)
-{  
+{
   $user_id = $this->session->userdata('id');
   $this->load->library('form_validation');
   $this->form_validation->set_error_delimiters('<p class="error">', '</p>');
@@ -72,10 +72,10 @@ public function add_app($app)
       if( $this->db->query($query, $values)){
           $id = $this->db->insert_id();
           $success = array('valid', $id);
-        return $success; 
+        return $success;
       } else{
            return false;
-        }    
+        }
     } else {
       //  echo 'fail';
       // var_dump(validation_errors());
@@ -85,7 +85,7 @@ public function add_app($app)
   // var_dump($user_id);
   // var_dump($app['date']);
   // die();
-  
+
 }
 
 public function get_current_app()

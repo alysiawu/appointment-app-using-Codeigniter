@@ -81,7 +81,7 @@
 					<div class="row">
 						<div class="col-md-1"></div>
 						<div class="col-md-10 wow fadeIn" data-wow-delay="0.3s">
-							<h1 class="text-upper">YOU VERY BEST TASK MANAGER</h1>
+							<h1 class="text-upper">YOUR VERY BEST TASK MANAGER</h1>
 							<h5 class="tm-white">Need a sleek, clean designed, and modern task manager? You are in the right place!<!--  <a rel="nofollow" href="http://www.templatemo.com" target="_parent">templatemo</a>. Images by <a rel="nofollow" href="http://pixabay.com" target="_blank">Pixabay</a> --></h5>
 							<img src="/assets/images/calender_tn.png" class="img-responsive" alt="home img">
 						</div>
@@ -114,24 +114,6 @@
 			</div>
 		</section>
 		<!-- end divider -->
-
-		<!-- start feature -->
-		<!-- <section id="feature">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 wow fadeInLeft" data-wow-delay="0.6s">
-						<h2 class="text-uppercase">Our Software Features</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-						<p><span><i class="fa fa-mobile"></i></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-						<p><i class="fa fa-code"></i>Quis autem velis reprehenderit et quis voluptate velit esse quam.</p>
-					</div>
-					<div class="col-md-6 wow fadeInRight" data-wow-delay="0.6s">
-						<img src="images/software-img.png" class="img-responsive" alt="feature img">
-					</div>
-				</div>
-			</div>
-		</section> -->
-		<!-- end feature -->
 
 		<!-- start feature1 -->
 		<section id="feature1">
@@ -194,83 +176,6 @@
       </div>
   </div>
 		<!-- end feature1 -->
-
-		<!-- start pricing -->
-	<!-- 	<section id="pricing">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 wow bounceIn">
-						<h2 class="text-uppercase">Our Pricing</h2>
-					</div>
-					<div class="col-md-4 wow fadeIn" data-wow-delay="0.6s">
-						<div class="pricing text-uppercase">
-							<div class="pricing-title">
-								<h4>Basic Plan</h4>
-								<p>$10</p>
-								<small class="text-lowercase">monthly</small>
-							</div>
-							<ul>
-								<li>2 GB Space</li>
-								<li>200 GB Bandwidth</li>
-								<li>20 More Themes</li>
-								<li>Lifetime Support</li>
-							</ul>
-							<button class="btn btn-primary text-uppercase">Sign up</button>
-						</div>
-					</div>
-					<div class="col-md-4 wow fadeIn" data-wow-delay="0.6s">
-						<div class="pricing active text-uppercase">
-							<div class="pricing-title">
-								<h4>Business Plan</h4>
-								<p>$20</p>
-								<small class="text-lowercase">monthly</small>
-							</div>
-							<ul>
-								<li>5 GB space</li>
-								<li>500 GB Bandwidth</li>
-								<li>50 More Themes</li>
-								<li>Lifetime Support</li>
-							</ul>
-							<button class="btn btn-primary text-uppercase">Sign up</button>
-						</div>
-					</div>
-					<div class="col-md-4 wow fadeIn" data-wow-delay="0.6s">
-						<div class="pricing text-uppercase">
-							<div class="pricing-title">
-								<h4>Pro Plan</h4>
-								<p>$30</p>
-								<small class="text-lowercase">monthly</small>
-							</div>
-							<ul>
-								<li>10 GB space</li>
-								<li>1,000 GB bandwidth</li>
-								<li>100 more themes</li>
-								<li>Lifetime Support</li>
-							</ul>
-							<button class="btn btn-primary text-uppercase">Sign Up</button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section> -->
-		<!-- end pricing -->
-
-		<!-- start download -->
-		<!-- <section id="download">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 wow fadeInLeft" data-wow-delay="0.6s">
-						<h2 class="text-uppercase">Download Our Software</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. </p>
-						<button class="btn btn-primary text-uppercase"><i class="fa fa-download"></i> Download</button>
-					</div>
-					<div class="col-md-6 wow fadeInRight" data-wow-delay="0.6s">
-						<img src="images/software-img.png" class="img-responsive" alt="feature img">
-					</div>
-				</div>
-			</div>
-		</section> -->
-		<!-- end download -->
 
 		<!-- start contact -->
 		<section id="contact">

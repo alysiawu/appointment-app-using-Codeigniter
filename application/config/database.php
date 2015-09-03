@@ -8,7 +8,7 @@ if(ENVIRONMENT == 'production')
 	$db['default']['hostname'] = '127.0.0.1';
 	$db['default']['username'] = 'root';
 	$db['default']['password'] = '1209';
-	$db['default']['database'] = 'app';
+	$db['default']['database'] = '';
 }
 else
 {
@@ -19,7 +19,7 @@ else
 	$db['default']['hostname'] = 'localhost';
 	$db['default']['username'] = 'root';
 	$db['default']['password'] = 'root';
-	$db['default']['database'] = 'app';
+	$db['default']['database'] = 'betterhelp';
 }
 
 $db['default']['dbdriver'] = 'mysql';
